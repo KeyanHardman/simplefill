@@ -1,0 +1,36 @@
+#image {
+  background-image: url(../img/slide-02.jpg);
+  height: 300px;
+  position: relative;
+  -webkit-box-shadow: 0 -4px 9px -6px #302e2f inset;
+  -moz-box-shadow: 0 -4px 9px -6px #302e2f inset;
+  box-shadow: 0 -4px 9px -6px #302e2f inset;
+  z-index: 4;
+}
+
+#teamdiv {
+  background-image: url(../img/bgnoise_lg.png);
+  height: 1000px;
+  width: 100%;
+  -webkit-box-shadow: 0 2px 8px -2px #302e2f;
+  -moz-box-shadow: 0 2px 8px -2px #302e2f;
+  box-shadow: 0 2px 8px -2px #302e2f;
+  z-index: 3;
+  position: relative;
+  padding-top: 30px;
+}
+
+#teamdiv p {
+  color: #4F4F4F;
+}
+
+.centeredteam {
+   margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  width: 1400px;
+}
+
+.teamcontent {
+  padding-left: 40px;
+}
