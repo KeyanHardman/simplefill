@@ -4,10 +4,21 @@
   box-shadow: 0 -4px 9px -6px #302e2f inset;
   position: relative;
   background-color: #1570a6;
+  /*background-image: url(../img/city-suburb-banner.png);*/
   z-index: 4;
   margin-top: 0px;
   height: 370px;
   width: 100%;
+  background-position:0px -190px;
+}
+
+#welcome > .centered > .row > .span5 > img {
+  padding-top: 10px;
+}
+
+.welcomearea {
+  padding-left: 30px;
+  padding-top: 40px;
 }
 
 #welcome h1 {
@@ -89,6 +100,7 @@
   font-size: 12px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 9px;
   border: 1px solid #464646;
 }
 
@@ -96,5 +108,5 @@
   background-color: #828282;
   text-decoration: none;
   color: white;
-  width:100px;
+
 }
