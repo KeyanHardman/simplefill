@@ -8,11 +8,12 @@
 
     <!-- Styles -->
     <link rel='stylesheet' type='text/css' href='assets/css/application.css'/>
+    <link rel='stylesheet' type='text/css' href='assets/css/animate.css'/>
     <link href="assets/css/bootstrap.css" rel="stylesheet" media="screen">
     <link href="assets/css/home.css" rel="stylesheet" media="screen">
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" media="screen">
      <link rel="stylesheet" type="text/css" href='http://fonts.googleapis.com/css?family=Ubuntu:300|Open+Sans'>
-
+     <link href='http://fonts.googleapis.com/css?family=Noto+Sans:400,700' rel='stylesheet' type='text/css'>
   </head>
 
   <body>
@@ -34,10 +35,10 @@
       <div class="centered">
         <div class="row">
           <div class="span5">
-            <img src="assets/img/House.png">
+            <img id="house" src="assets/img/House.png">
           </div>
-        <div class="welcomearea span7">
-          <h2>You Home, Your Gas, Your Car</h2>
+        <div class="welcomearea span7" id="text">
+          <h2>Your Home, Your Gas, Your Car</h2>
           <p class="lead">Small scale gas compression technologies, such as those under development by Simple-Fill, have the potential to provide vehicle owners across the nation a convenient, affordable, clean domestic fuel.”</p>
           <p class="lead" align = "right"> - Charlie Riedl, Chesapeake Energy</p>
           </div>
@@ -49,7 +50,7 @@
     <div id="details">
       <div class="centered">
         <div class="row-fluid marketing">
-          <h3>An Abundant Resource: Underutilized</h3>
+          <h3><b>An Abundant Resource: Underutilized</b></h3>
           <p>Natural gas is primarily used in the United States to heat our homes and businesses as well as to generate electricity.  However, natural gas can also be used to fuel automobiles and trucks.  And the price is right: approximately $2.00 per gasoline gallon equivalent (GGE).
           </p><p>
           So why haven't Americans adopted natural gas?  In a word:  Compression.
@@ -62,13 +63,17 @@
     </div>
 
     <!-- Connect Div -->
+
     <div id="connect">
        <h2 align="center">-Stay Connected & Sign Up For Updates-</h2>
        <h2 align="center">
+
+        <!-- Form -->
         <form action="/form.php" method= "post">
-        <input class="input-xlarge" type="text" name="email" placeholder="Email">
-        <input type="submit" class="mybtn" value ="Stay Informed!">
-      </form>
+          <input class="input-xlarge" type="text" name="email" placeholder="Email">
+          <input type="submit" class="mybtn" value ="Stay Informed!">
+        </form>
+
         </h2>
       <div class="centered">
         <div class="row connectinfo">
@@ -95,6 +100,6 @@
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
     <script src="http://code.jquery.com/jquery.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
-
+    <script type='text/javascript' src="assets/js/application.js"></script>
   </body>
 </html>

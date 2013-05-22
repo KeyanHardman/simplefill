@@ -8,9 +8,14 @@
   z-index: 4;
 }
 
+#teamdiv h3:nth-child(1) {
+  line-height: 0px;
+  padding-bottom: 20px
+}
+
 #teamdiv {
   background-image: url(../img/bgnoise_lg.png);
-  height: 1000px;
+  height: 100%;
   width: 100%;
   -webkit-box-shadow: 0 2px 8px -2px #302e2f;
   -moz-box-shadow: 0 2px 8px -2px #302e2f;
@@ -22,6 +27,16 @@
 
 #teamdiv p {
   color: #4F4F4F;
+  padding-bottom: 20px;
+
+}
+
+#teamdiv .span9 {
+  min-height: 200px;
+}
+
+#teamdiv > .centered {
+  width:1400px;
 }
 
 .centeredteam {

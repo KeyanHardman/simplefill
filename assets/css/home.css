@@ -9,7 +9,8 @@
   margin-top: 0px;
   height: 370px;
   width: 100%;
-  background-position:0px -190px;
+  border-bottom: 3px solid #4DDE00;
+  /*background-position:0px -190px;*/
 }
 
 #welcome > .centered > .row > .span5 > img {
@@ -40,6 +41,10 @@
   margin-top: -10px;
 }
 
+#details h3 {
+  font-family: 'Noto Sans', sans-serif;
+}
+
 #details p {
   color: black;
 }
@@ -49,7 +54,7 @@
   -moz-box-shadow: 0 2px 8px -2px #302e2f;
   box-shadow: 0 2px 8px -2px #302e2f;
   position: relative;
-  z-index: 2;
+  z-index: 1;
   height: 420px;
   background: rgb(21,112,166); /* Old browsers */
   background: -moz-linear-gradient(top, rgba(21,112,166,1) 0%, rgba(19,93,150,1) 100%); /* FF3.6+ */
@@ -81,6 +86,11 @@
   padding-left: 60px;
 }
 
+
+#connect h2 {
+  font-family: 'Noto Sans', sans-serif;
+}
+
 .mybtn {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -100,7 +110,7 @@
   font-size: 12px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 9px;
+  margin-bottom: 10px;
   border: 1px solid #464646;
 }
 
