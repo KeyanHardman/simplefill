@@ -9,7 +9,7 @@
   margin-top: 0px;
   height: 370px;
   width: 100%;
-  border-bottom: 3px solid #4DDE00;
+  border-bottom: 2px solid #4DDE00;
   /*background-position:0px -190px;*/
 }
 
@@ -22,8 +22,9 @@
   padding-top: 40px;
 }
 
-#welcome h1 {
+#welcome h2 {
   color: #2B2B2B;
+  text-shadow: 0px 1px 2px #555;
 }
 
 #details {
@@ -33,7 +34,7 @@
   position: relative;
   z-index: 3;
   height: 250px;
-  background-image: url(../img/bgnoise_lg.png);
+  background-image: url(../img/squairy_light.png);
   padding-top: 12px;
   padding-right: 60px;
   padding-left: 60px;
@@ -72,10 +73,13 @@
 
 #connect h2 {
   color: #2B2B2B;
+  text-shadow: 0px 1px 2px #555;
 }
 
 #connect h3 {
-  color: #2B2B2B;
+
+  color: #333333;
+text-shadow: 0px 1px 1px #555;
 }
 
 #connect p {
